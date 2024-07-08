@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ISP Settings | NZ Modem Configurations</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="ISP Settings" />
+<meta name="author" content="Nikolai Jamez" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP)." />
+<meta property="og:description" content="This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP)." />
+<link rel="canonical" href="http://localhost:4000/isp-settings.html" />
+<meta property="og:url" content="http://localhost:4000/isp-settings.html" />
+<meta property="og:site_name" content="NZ Modem Configurations" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ISP Settings" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Nikolai Jamez"},"description":"This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).","headline":"ISP Settings","url":"http://localhost:4000/isp-settings.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/scripts.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="NZ Modem Configurations" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">NZ Modem Configurations</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/isp-settings.html">ISP Settings</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">ISP Settings</h1>
+  </header>
+
+  <div class="post-content">
+    <h3 id="standard_settings">Standard Settings</h3>
+<ul>
+  <li>Operating Mode: Ethernet WAN</li>
+  <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>MTU or MRU: 1492 or 1500</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>Vlan Priority or 802.1p: 0</li>
+  <li>NAT: Enabled, Full Cone</li>
+</ul>
+
+<h3 id="isp-specific">ISP Specific</h3>
+<h4 id="list">List</h4>
+<ul>
+  <li><a href="#contact_energy">Contact Energy</a></li>
+  <li><a href="#mercury">Mercury</a></li>
+  <li><a href="#one_nz">One NZ</a></li>
+  <li><a href="#trustpower">Trustpower</a></li>
+</ul>
+
+<!-- TEMPLATE
+---
+
+#### Provider_Name
+##### ADSL
+
+- Operating Mode: 
+- PPP Protocol: 
+- PPP Username: 
+- PPP Password: 
+- PPP Mode: 
+- VPI: 
+- VCI: 
+- Multiplexing: 
+- VLAN or 802.1q: 
+- VLAN ID: 
+- VLAN Priority or 802.1p: 
+- MTU: 
+- Authentication mode: 
+- NAT: 
+- IP Protocal Version: 
+- IPv4 Address Type: 
+- IPv6 Address Type: 
+- Primary (Preferred) DNS: 
+- Secondary DNS: 
+
+##### VDSL
+
+- Operating Mode: 
+- PPP Protocol: 
+- PPP Username: 
+- PPP Password: 
+- PPP Mode: 
+- PCP: 
+- VPI: 
+- VCI: 
+- VLAN or 802.1q: 
+- VLAN ID: 
+- VLAN Priority or 802.1p: 
+- MTU: 
+- Authentication mode: 
+- NAT: 
+- IP Protocal Version: 
+- IPv4 Address Type: 
+- IPv6 Address Type: 
+- Primary (Preferred) DNS: 
+- Secondary DNS: 
+
+##### FIBRE
+
+- Operating Mode: 
+- Access Type: 
+- VPI: 
+- VCI: 
+- VLAN or 802.1q: 
+- VLAN ID: 
+- VLAN Priority or 802.1p: 
+- MTU: 
+- Authentication mode: 
+- NAT: 
+- IP Protocal Version: 
+- IPv4 Address Type: 
+- IPv6 Address Type: 
+- Primary (Preferred) DNS: 
+- Secondary DNS: 
+
+##### VoIP
+-->
+
+<h4 id="contact_energy">Contact Energy</h4>
+<h5 id="adsl">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL</li>
+  <li>PPP Protocol: PPPoE</li>
+  <li>PPP Username: user@contactenergy.co.nz</li>
+  <li>PPP Password: c0nt4ct-3n3rgy!</li>
+  <li>PPP Mode: Always On</li>
+  <li>VPI: 0</li>
+  <li>VCI: 110</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>Authentication mode: PAP</li>
+  <li>NAT: Enabled, Full Cone</li>
+</ul>
+
+<h5 id="vdsl">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>PPP Protocol: PPPoE</li>
+  <li>PPP Username: user@contactenergy.co.nz</li>
+  <li>PPP Password: c0nt4ct-3n3rgy!</li>
+  <li>PPP Mode: Always On</li>
+  <li>VPI: 0</li>
+  <li>VCI: 110</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>Authentication mode: PAP</li>
+  <li>NAT: Enabled, Full Cone</li>
+</ul>
+
+<h5 id="fibre">FIBRE</h5>
+
+<p><a href="#standard_settings">Standard Settings</a></p>
+
+<h5 id="voip">VoIP</h5>
+
+<p>Not disclosed</p>
+
+<hr />
+
+<h4 id="mercury">Mercury</h4>
+<h5 id="adsl-1">ADSL</h5>
+
+<ul>
+  <li>Operating Mode:</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
+  <li>PPP Password: pass123</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Multiplexing: VCMUX</li>
+  <li>VLAN Priority or 802.1p:</li>
+  <li>MTU: 1500</li>
+</ul>
+
+<h5 id="vdsl-1">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL2</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
+  <li>PPP Password: pass123</li>
+  <li>PPP Mode: PAP</li>
+  <li>PCP: 0</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1500</li>
+</ul>
+
+<h5 id="fibre-1">FIBRE</h5>
+
+<p><a href="#standard_settings">Standard Settings</a></p>
+
+<h5 id="voip-1">VoIP</h5>
+
+<p>Not disclosed</p>
+
+<hr />
+
+<h4 id="one_nz">One NZ</h4>
+<h5 id="adsl-2">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: User</li>
+  <li>PPP Password: User</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Primary (Preferred) DNS: 203.109.191.1</li>
+  <li>Secondary DNS: 203.118.191.1</li>
+</ul>
+
+<h5 id="vdsl-2">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>Access Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1500</li>
+  <li>IP Protocal Version: IPv4 and IPv6</li>
+  <li>IPv4 Address Type: DHCP</li>
+  <li>IPv6 Address Type: DHCP</li>
+</ul>
+
+<h5 id="fibre-2">FIBRE</h5>
+
+<ul>
+  <li>Operating Mode: Ethernet</li>
+  <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1500</li>
+  <li>IP Protocal Version: IPv4 + IPv6</li>
+  <li>IPv4 Address Type: DHCP</li>
+  <li>IPv6 Address Type: DHCP</li>
+</ul>
+
+<h5 id="voip-2">VoIP</h5>
+
+<p>Not Disclosed</p>
+
+<hr />
+
+<h4 id="trustpower">Trustpower</h4>
+<h5 id="adsl-3">ADSL</h5>
+
+<ul>
+  <li>Operating Mode:</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
+  <li>PPP Password: pass123</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Multiplexing: VCMUX</li>
+  <li>VLAN Priority or 802.1p:</li>
+  <li>MTU: 1500</li>
+</ul>
+
+<h5 id="vdsl-3">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL2</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
+  <li>PPP Password: pass123</li>
+  <li>PPP Mode: PAP</li>
+  <li>PCP: 0</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1500</li>
+</ul>
+
+<h5 id="fibre-3">FIBRE</h5>
+
+<p><a href="#standard_settings">Standard Settings</a></p>
+
+<h5 id="voip-3">VoIP</h5>
+
+<p>Not disclosed</p>
+
+<hr />
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+    <!--<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Nikolai Jamez</li>
+          <li><a class="u-email" href="mailto:nikolaijamez@gmail.com">nikolaijamez@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+-->
+
+  </body>
+
+</html>
