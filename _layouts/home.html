@@ -3,25 +3,14 @@ layout: base
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
 
   {{ content }}
 
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
+  {% assign posts = site.posts %}
 
   <h2>Recently Added</h>
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts limit:3 -%}
@@ -32,14 +21,9 @@ layout: base
             {{ post.category }} {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
-  {%- endif -%}
-
   <hr>
 
   <h2>Quick Search</h2>
@@ -50,28 +34,12 @@ layout: base
       <th style="width:60%;">Make</th>
       <th style="width:40%;">Model</th>
     </tr>
-    {%- for post in site.posts -%}
+    {%- for post in posts -%}
       <tr>
         <td>{{ post.category | escape }}</td>
         <td><a href="{{ post.url | relative_url }}">{{ post.title | escape}}</a></td>
       </tr>
     {%- endfor -%}
-    <!-- <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Berglunds snabbkop</td>
-      <td>Sweden</td>
-    </tr>
-    <tr>
-      <td>Island Trading</td>
-      <td>UK</td>
-    </tr>
-    <tr>
-      <td>Koniglich Essen</td>
-      <td>Germany</td>
-    </tr> -->
   </table> 
 
 </div>
