@@ -17,18 +17,19 @@ layout: base
   {% endif %}
 
 
+  <h2>Recently Added</h>
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in posts limit:3 -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            {{ post.category }} {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
@@ -57,5 +58,39 @@ layout: base
     {%- endif %}
 
   {%- endif -%}
+
+  <hr>
+
+  <h2>Quick Search</h2>
+  <input type="text" id="search_field" onkeyup="filter_table()" placeholder="Search table">
+
+  <table id="device_table">
+    <tr class="header">
+      <th style="width:60%;">Make</th>
+      <th style="width:40%;">Model</th>
+    </tr>
+    {%- for post in site.posts -%}
+      <tr>
+        <td>{{ post.category | escape }}</td>
+        <td><a href="{{ post.url | relative_url }}">{{ post.title | escape}}</a></td>
+      </tr>
+    {%- endfor -%}
+    <!-- <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Berglunds snabbkop</td>
+      <td>Sweden</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Koniglich Essen</td>
+      <td>Germany</td>
+    </tr> -->
+  </table> 
 
 </div>
