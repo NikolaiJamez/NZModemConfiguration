@@ -9,7 +9,7 @@
 
 ### Login Information
 
-| Provider | Username | Password | IP_Address |
+| Provider | Username | Password | IP Address |
 | :-: | :-: | :-: | :-: |
 | Provider | Username | Password | IP_Address |
 
@@ -18,9 +18,10 @@
 | Resource | Link |
 | :-: | :-: |
 | Resource | [Link]() |
-
+<!--
 ### Guides ([ADSL](#ADSL)  /  [VDSL](#VDSL)  /  [FIBRE](#FIBRE)  /  [VoIP](#VoIP))
 #### ADSL {#ADSL}
 #### VDSL {#VDSL}
 #### FIRBE {#FIBRE}
 #### VoIP {#VoIP}
+-->
