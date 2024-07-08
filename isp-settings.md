@@ -3,7 +3,7 @@ layout: page
 title: ISP Settings
 ---
 ### Standard Settings {#standard_settings}
-- Operating Mode: Ethernet WAN
+- Operating Mode: Fibre or Ethernet WAN
 - Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
 - MTU or MRU: 1492 or 1500
 - VLAN or 802.1q: Enabled
@@ -13,6 +13,7 @@ title: ISP Settings
 
 ### ISP Specific
 #### List
+- [2Degrees](#2degrees)
 - [Contact Energy](#contact_energy)
 - [Mercury](#mercury)
 - [One NZ](#one_nz)
@@ -86,6 +87,44 @@ title: ISP Settings
 
 ##### VoIP
 -->
+
+#### 2Degrees
+##### ADSL
+
+- Operating Mode: ADSL
+- PPP Protocol: PPP over ATM (PPPoA)
+- PPP Username: putanything@2degrees.nz
+- PPP Password: putanything
+- PPP Mode: VCMUX
+- VPI: 0
+- VCI: 100
+- VLAN Priority or 802.1p: 
+- MTU: 1492 or 1500
+
+##### VDSL
+
+- Operating Mode: VDSL
+- PPP Protocol: PPP over Ethernet (PPPoE)
+- PPP Username: putanything@2degrees.nz
+- PPP Password: putanything
+- PCP: 0
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: 1492 or 1500
+- Authentication Mode: PAP
+- NAT: Enabled
+
+##### FIBRE
+
+[Standard Settings](#standard_settings)
+
+##### VoIP
+
+For ADSL/VDSL: Not disclosed
+For Fibre: This is provided via the Optical Network Terminal, no configuration needed
+
+---
 
 #### Contact Energy {#contact_energy}
 ##### ADSL

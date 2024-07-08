@@ -48,7 +48,7 @@
   <div class="post-content">
     <h3 id="standard_settings">Standard Settings</h3>
 <ul>
-  <li>Operating Mode: Ethernet WAN</li>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
   <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
   <li>MTU or MRU: 1492 or 1500</li>
   <li>VLAN or 802.1q: Enabled</li>
@@ -60,6 +60,7 @@
 <h3 id="isp-specific">ISP Specific</h3>
 <h4 id="list">List</h4>
 <ul>
+  <li><a href="#2degrees">2Degrees</a></li>
   <li><a href="#contact_energy">Contact Energy</a></li>
   <li><a href="#mercury">Mercury</a></li>
   <li><a href="#one_nz">One NZ</a></li>
@@ -135,8 +136,50 @@
 ##### VoIP
 -->
 
-<h4 id="contact_energy">Contact Energy</h4>
+<h4 id="2degrees">2Degrees</h4>
 <h5 id="adsl">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: putanything@2degrees.nz</li>
+  <li>PPP Password: putanything</li>
+  <li>PPP Mode: VCMUX</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>VLAN Priority or 802.1p:</li>
+  <li>MTU: 1492 or 1500</li>
+</ul>
+
+<h5 id="vdsl">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: putanything@2degrees.nz</li>
+  <li>PPP Password: putanything</li>
+  <li>PCP: 0</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>Authentication Mode: PAP</li>
+  <li>NAT: Enabled</li>
+</ul>
+
+<h5 id="fibre">FIBRE</h5>
+
+<p><a href="#standard_settings">Standard Settings</a></p>
+
+<h5 id="voip">VoIP</h5>
+
+<p>For ADSL/VDSL: Not disclosed
+For Fibre: This is provided via the Optical Network Terminal, no configuration needed</p>
+
+<hr />
+
+<h4 id="contact_energy">Contact Energy</h4>
+<h5 id="adsl-1">ADSL</h5>
 
 <ul>
   <li>Operating Mode: ADSL</li>
@@ -154,7 +197,7 @@
   <li>NAT: Enabled, Full Cone</li>
 </ul>
 
-<h5 id="vdsl">VDSL</h5>
+<h5 id="vdsl-1">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -172,18 +215,18 @@
   <li>NAT: Enabled, Full Cone</li>
 </ul>
 
-<h5 id="fibre">FIBRE</h5>
+<h5 id="fibre-1">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip">VoIP</h5>
+<h5 id="voip-1">VoIP</h5>
 
 <p>Not disclosed</p>
 
 <hr />
 
 <h4 id="mercury">Mercury</h4>
-<h5 id="adsl-1">ADSL</h5>
+<h5 id="adsl-2">ADSL</h5>
 
 <ul>
   <li>Operating Mode:</li>
@@ -197,7 +240,7 @@
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-1">VDSL</h5>
+<h5 id="vdsl-2">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL2</li>
@@ -212,18 +255,18 @@
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="fibre-1">FIBRE</h5>
+<h5 id="fibre-2">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip-1">VoIP</h5>
+<h5 id="voip-2">VoIP</h5>
 
 <p>Not disclosed</p>
 
 <hr />
 
 <h4 id="one_nz">One NZ</h4>
-<h5 id="adsl-2">ADSL</h5>
+<h5 id="adsl-3">ADSL</h5>
 
 <ul>
   <li>Operating Mode: ADSL</li>
@@ -236,7 +279,7 @@
   <li>Secondary DNS: 203.118.191.1</li>
 </ul>
 
-<h5 id="vdsl-2">VDSL</h5>
+<h5 id="vdsl-3">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -250,7 +293,7 @@
   <li>IPv6 Address Type: DHCP</li>
 </ul>
 
-<h5 id="fibre-2">FIBRE</h5>
+<h5 id="fibre-3">FIBRE</h5>
 
 <ul>
   <li>Operating Mode: Ethernet</li>
@@ -264,14 +307,14 @@
   <li>IPv6 Address Type: DHCP</li>
 </ul>
 
-<h5 id="voip-2">VoIP</h5>
+<h5 id="voip-3">VoIP</h5>
 
 <p>Not Disclosed</p>
 
 <hr />
 
 <h4 id="trustpower">Trustpower</h4>
-<h5 id="adsl-3">ADSL</h5>
+<h5 id="adsl-4">ADSL</h5>
 
 <ul>
   <li>Operating Mode:</li>
@@ -285,7 +328,7 @@
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-3">VDSL</h5>
+<h5 id="vdsl-4">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL2</li>
@@ -300,11 +343,11 @@
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="fibre-3">FIBRE</h5>
+<h5 id="fibre-4">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip-3">VoIP</h5>
+<h5 id="voip-4">VoIP</h5>
 
 <p>Not disclosed</p>
 
