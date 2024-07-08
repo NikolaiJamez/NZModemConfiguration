@@ -247,6 +247,49 @@ Not Disclosed
 
 ---
 
+#### Spark
+##### ADSL
+
+- Operating Mode: ADSL
+- PPP Protocol: PPP over ATM (PPPoA)
+- PPP Username: user@spark.co.nz
+- PPP Password: password
+- Authentication Mode: PAP
+- PPP Mode: Always On
+- VPI: 0
+- VCI: 100
+- Multiplexing: VCMUX
+- MTU: 1500
+
+##### VDSL
+
+- Operating Mode: VDSL
+- PPP Protocol: PPP over Ethernet (PPPoE)
+- PPP Username: user@spark.co.nz
+- PPP Password: password
+- Authentication Mode: PAP
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: Auto or 1500
+
+##### FIBRE
+
+- Operating Mode: Fibre
+- PPP Protocol: PPP over Ethernet (PPPoE)
+- PPP Username: user@spark.co.nz
+- PPP Password: password
+- PPP Mode: Always On
+- Authentication Mode: PAP
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: Auto or 1500
+
+##### VoIP
+
+---
+
 #### Trustpower {#trustpower}
 ##### ADSL
 
