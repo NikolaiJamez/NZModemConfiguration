@@ -1,0 +1,26 @@
+### Capabilities
+
+| Service | Supported |
+| :-: | :-: |
+| ADSL | XXX |
+| VDSL | XXX |
+| FIBRE | XXX |
+| VoIP | XXX |
+
+### Login Information
+
+| Provider | Username | Password | IP_Address |
+| :-: | :-: | :-: | :-: |
+| Provider | Username | Password | IP_Address |
+
+### Supporting Resources
+
+| Resource | Link |
+| :-: | :-: |
+| Resource | [Link]() |
+
+### Guides ([ADSL](#ADSL)  /  [VDSL](#VDSL)  /  [FIBRE](#FIBRE)  /  [VoIP](#VoIP))
+#### ADSL {#ADSL}
+#### VDSL {#VDSL}
+#### FIRBE {#FIBRE}
+#### VoIP {#VoIP}
