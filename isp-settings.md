@@ -17,6 +17,7 @@ title: ISP Settings
 - [Contact Energy](#contact_energy)
 - [Mercury](#mercury)
 - [One NZ](#one_nz)
+- [Spark](#spark)
 - [Trustpower](#trustpower)
 
 <!-- TEMPLATE
@@ -247,7 +248,7 @@ Not Disclosed
 
 ---
 
-#### Spark
+#### Spark {#spark}
 ##### ADSL
 
 - Operating Mode: ADSL
