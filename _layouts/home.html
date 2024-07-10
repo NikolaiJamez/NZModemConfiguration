@@ -8,6 +8,7 @@ layout: base
   {{ content }}
 
   {% assign posts = site.posts %}
+  {% assign posts_sorted = site.posts | sort: "category" %}
 
   <h2>Recently Added</h>
     <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -34,7 +35,7 @@ layout: base
       <th style="width:60%;">Make</th>
       <th style="width:40%;">Model</th>
     </tr>
-    {%- for post in posts -%}
+    {%- for post in posts_sorted -%}
       <tr>
         <td>{{ post.category | escape }}</td>
         <td><a href="{{ post.url | relative_url }}">{{ post.title | escape}}</a></td>
