@@ -1,5 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-10T11:23:57+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NZ Modem Configurations</title><subtitle>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
-</subtitle><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><entry><title type="html">VRV9517</title><link href="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html" rel="alternate" type="text/html" title="VRV9517" /><published>2024-07-10T10:17:00+00:00</published><updated>2024-07-10T10:17:00+00:00</updated><id>http://localhost:4000/arcadyan/2024/07/10/smart-modem</id><content type="html" xml:base="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-10T11:36:04+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NZ Modem Configurations</title><subtitle>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
+</subtitle><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><entry><title type="html">NF4V</title><link href="http://localhost:4000/netcomm/2024/07/10/nf4v.html" rel="alternate" type="text/html" title="NF4V" /><published>2024-07-10T11:26:00+00:00</published><updated>2024-07-10T11:26:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/10/nf4v</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/10/nf4v.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Service</th>
+      <th style="text-align: center">Supported</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">ADSL</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">VDSL</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">FIBRE</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">VoIP</td>
+      <td style="text-align: center">Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="login-information">Login Information</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Provider</th>
+      <th style="text-align: center">Username</th>
+      <th style="text-align: center">Password</th>
+      <th style="text-align: center">IP Address</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Netcomm</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">192.168.20.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Contact Energy</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">192.168.20.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Mercury</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">Located on router sticker</td>
+      <td style="text-align: center">192.168.1.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Orcon</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">Last 6 characters of MAC address (lowercase)</td>
+      <td style="text-align: center">192.168.1.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Slingshot</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">Last 6 characters of MAC address (lowercase)</td>
+      <td style="text-align: center">192.168.1.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Trustpower</td>
+      <td style="text-align: center">admin</td>
+      <td style="text-align: center">Located on router sticker</td>
+      <td style="text-align: center">192.168.1.1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="supporting-resources">Supporting Resources</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Resource</th>
+      <th style="text-align: center">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Website</td>
+      <td style="text-align: center"><a href="https://support.netcommwireless.com/products/NF4V">Link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Manual</td>
+      <td style="text-align: center"><a href="https://support.netcommwireless.com/api/Media/Document/6f8ef9e1-7a31-439d-9e42-1ab8a9f69da0?Product=NF4V-User-Guide.pdf">View / Download</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Emulator</td>
+      <td style="text-align: center"><a href="https://support.netcommwireless.com/emulators/NF4V/Resources/main.html">Link</a></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">VRV9517</title><link href="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html" rel="alternate" type="text/html" title="VRV9517" /><published>2024-07-10T10:17:00+00:00</published><updated>2024-07-10T10:17:00+00:00</updated><id>http://localhost:4000/arcadyan/2024/07/10/smart-modem</id><content type="html" xml:base="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
 
 <table>
   <thead>
@@ -256,7 +359,7 @@
       <td style="text-align: center"><a href="https://static.tp-link.com/upload/manual/2024/202402/20240206/1910020936_BBA%20Mesh_UG_REV1.0.1.pdf">View / Download</a></td>
     </tr>
     <tr>
-      <td style="text-align: center">Quick Insal Guide (v1.0)</td>
+      <td style="text-align: center">Quick Insall Guide (v1.0)</td>
       <td style="text-align: center"><a href="https://static.tp-link.com/upload/manual/2023/202305/20230511/7109505768_Whole%20Home%20Mesh%20Wi-Fi%20AP%E5%A4%9A%E6%9C%BA%E5%9E%8B_QIG_V1.0.2.pdf">View / Download</a></td>
     </tr>
   </tbody>
