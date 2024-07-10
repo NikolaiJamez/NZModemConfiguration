@@ -2,7 +2,7 @@
 layout: page
 title: ISP Settings
 ---
-### Standard Settings {#standard_settings}
+### Standard Fibre Settings {#standard_settings}
 - Operating Mode: Fibre or Ethernet WAN
 - Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
 - MTU or MRU: 1492 or 1500
