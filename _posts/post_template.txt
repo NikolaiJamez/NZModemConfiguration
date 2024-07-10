@@ -1,5 +1,5 @@
-<img src="{{ "assets/img/XXXXXX_front.jpg" | relative_url }}" height="368px" width="368px">
-<img src="{{ "assets/img/XXXXXX_rear.jpg" | relative_url }}" height="368px" width="368px">
+<img src="{{ "assets/img/XXXXXX_front.jpg" | relative_url }}" class="modem_image">
+<img src="{{ "assets/img/XXXXXX_rear.jpg" | relative_url }}" class="modem_image">
 
 ### Capabilities
 

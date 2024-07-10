@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-10T12:28:18+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NZ Modem Configurations</title><subtitle>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
-</subtitle><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><entry><title type="html">NF4V</title><link href="http://localhost:4000/netcomm/2024/07/10/nf4v.html" rel="alternate" type="text/html" title="NF4V" /><published>2024-07-10T11:26:00+00:00</published><updated>2024-07-10T11:26:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/10/nf4v</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/10/nf4v.html"><![CDATA[<p><img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__1.webp?h=3039711667" height="50%" width="49%" />
-<img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__3.webp?h=3039711667" height="50%" width="49%" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-10T12:36:37+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NZ Modem Configurations</title><subtitle>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
+</subtitle><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><entry><title type="html">NF4V</title><link href="http://localhost:4000/netcomm/2024/07/10/nf4v.html" rel="alternate" type="text/html" title="NF4V" /><published>2024-07-10T11:26:00+00:00</published><updated>2024-07-10T11:26:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/10/nf4v</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/10/nf4v.html"><![CDATA[<p><img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__1.webp?h=3039711667" class="modem_image" />
+<img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__3.webp?h=3039711667" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -105,8 +105,8 @@
       <td style="text-align: center"><a href="https://support.netcommwireless.com/emulators/NF4V/Resources/main.html">Link</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">VRV9517</title><link href="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html" rel="alternate" type="text/html" title="VRV9517" /><published>2024-07-10T10:17:00+00:00</published><updated>2024-07-10T10:17:00+00:00</updated><id>http://localhost:4000/arcadyan/2024/07/10/smart-modem</id><content type="html" xml:base="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" height="50%" width="49%" />
-<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" height="50%" width="49%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">VRV9517</title><link href="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html" rel="alternate" type="text/html" title="VRV9517" /><published>2024-07-10T10:17:00+00:00</published><updated>2024-07-10T10:17:00+00:00</updated><id>http://localhost:4000/arcadyan/2024/07/10/smart-modem</id><content type="html" xml:base="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" class="modem_image" />
+<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -189,8 +189,8 @@
       <td style="text-align: center"><a href="https://www.bigpipe.co.nz/faq/faq-hardware/faq-smart-modem/">Link</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Arcadyan" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">HG659b</title><link href="http://localhost:4000/huawei/2024/07/10/hg659b.html" rel="alternate" type="text/html" title="HG659b" /><published>2024-07-10T10:04:00+00:00</published><updated>2024-07-10T10:04:00+00:00</updated><id>http://localhost:4000/huawei/2024/07/10/hg659b</id><content type="html" xml:base="http://localhost:4000/huawei/2024/07/10/hg659b.html"><![CDATA[<p><img src="/assets/img/hg659b_front.jpg" height="50%" width="49%" />
-<img src="/assets/img/hg659b_rear.jpg" height="50%" width="49%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Arcadyan" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">HG659b</title><link href="http://localhost:4000/huawei/2024/07/10/hg659b.html" rel="alternate" type="text/html" title="HG659b" /><published>2024-07-10T10:04:00+00:00</published><updated>2024-07-10T10:04:00+00:00</updated><id>http://localhost:4000/huawei/2024/07/10/hg659b</id><content type="html" xml:base="http://localhost:4000/huawei/2024/07/10/hg659b.html"><![CDATA[<p><img src="/assets/img/hg659b_front.jpg" class="modem_image" />
+<img src="/assets/img/hg659b_rear.jpg" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -293,8 +293,8 @@
       <td style="text-align: center"><a href="https://www.manual.nz/huawei/hg659b/manual">View</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Huawei" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Smart Modem</title><link href="http://localhost:4000/spark/2024/07/09/smart-modem.html" rel="alternate" type="text/html" title="Smart Modem" /><published>2024-07-09T10:17:00+00:00</published><updated>2024-07-09T10:17:00+00:00</updated><id>http://localhost:4000/spark/2024/07/09/smart-modem</id><content type="html" xml:base="http://localhost:4000/spark/2024/07/09/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" height="50%" width="49%" />
-<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" height="50%" width="49%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Huawei" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Smart Modem</title><link href="http://localhost:4000/spark/2024/07/09/smart-modem.html" rel="alternate" type="text/html" title="Smart Modem" /><published>2024-07-09T10:17:00+00:00</published><updated>2024-07-09T10:17:00+00:00</updated><id>http://localhost:4000/spark/2024/07/09/smart-modem</id><content type="html" xml:base="http://localhost:4000/spark/2024/07/09/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" class="modem_image" />
+<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -377,8 +377,8 @@
       <td style="text-align: center"><a href="https://www.bigpipe.co.nz/faq/faq-hardware/faq-smart-modem/">Link</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Spark" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Smart Modem</title><link href="http://localhost:4000/bigpipe/2024/07/08/smart-modem.html" rel="alternate" type="text/html" title="Smart Modem" /><published>2024-07-08T10:17:00+00:00</published><updated>2024-07-08T10:17:00+00:00</updated><id>http://localhost:4000/bigpipe/2024/07/08/smart-modem</id><content type="html" xml:base="http://localhost:4000/bigpipe/2024/07/08/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" height="50%" width="49%" />
-<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" height="50%" width="49%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Spark" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Smart Modem</title><link href="http://localhost:4000/bigpipe/2024/07/08/smart-modem.html" rel="alternate" type="text/html" title="Smart Modem" /><published>2024-07-08T10:17:00+00:00</published><updated>2024-07-08T10:17:00+00:00</updated><id>http://localhost:4000/bigpipe/2024/07/08/smart-modem</id><content type="html" xml:base="http://localhost:4000/bigpipe/2024/07/08/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" class="modem_image" />
+<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -461,8 +461,8 @@
       <td style="text-align: center"><a href="https://www.bigpipe.co.nz/faq/faq-hardware/faq-smart-modem/">Link</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Bigpipe" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">HX510</title><link href="http://localhost:4000/tp%20link/2024/07/08/hx510.html" rel="alternate" type="text/html" title="HX510" /><published>2024-07-08T09:05:00+00:00</published><updated>2024-07-08T09:05:00+00:00</updated><id>http://localhost:4000/tp%20link/2024/07/08/hx510</id><content type="html" xml:base="http://localhost:4000/tp%20link/2024/07/08/hx510.html"><![CDATA[<p><img src="/assets/img/hx510_front.jpg" height="50%" width="49%" />
-<img src="/assets/img/hx510_rear.jpg" hheight="50%" width="49%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Bigpipe" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">HX510</title><link href="http://localhost:4000/tp%20link/2024/07/08/hx510.html" rel="alternate" type="text/html" title="HX510" /><published>2024-07-08T09:05:00+00:00</published><updated>2024-07-08T09:05:00+00:00</updated><id>http://localhost:4000/tp%20link/2024/07/08/hx510</id><content type="html" xml:base="http://localhost:4000/tp%20link/2024/07/08/hx510.html"><![CDATA[<p><img src="/assets/img/hx510_front.jpg" class="modem_image" />
+<img src="/assets/img/hx510_rear.jpg" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -543,8 +543,8 @@
       <td style="text-align: center"><a href="https://static.tp-link.com/upload/manual/2023/202305/20230511/7109505768_Whole%20Home%20Mesh%20Wi-Fi%20AP%E5%A4%9A%E6%9C%BA%E5%9E%8B_QIG_V1.0.2.pdf">View / Download</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="TP Link" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">NF18ACV</title><link href="http://localhost:4000/netcomm/2024/07/08/nf18acv.html" rel="alternate" type="text/html" title="NF18ACV" /><published>2024-07-08T07:14:00+00:00</published><updated>2024-07-08T07:14:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/08/nf18acv</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/08/nf18acv.html"><![CDATA[<p><img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__1.webp?h=3039711667" height="50%" width="49%" />
-<img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__3.webp?h=3039711667" height="50%" width="49%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="TP Link" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">NF18ACV</title><link href="http://localhost:4000/netcomm/2024/07/08/nf18acv.html" rel="alternate" type="text/html" title="NF18ACV" /><published>2024-07-08T07:14:00+00:00</published><updated>2024-07-08T07:14:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/08/nf18acv</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/08/nf18acv.html"><![CDATA[<p><img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__1.webp?h=3039711667" class="modem_image" />
+<img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODNCM1059__3.webp?h=3039711667" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
@@ -645,8 +645,8 @@
       <td style="text-align: center"><a href="https://support.netcommwireless.com/api/Media/Document/faac836c-5f79-40e9-8180-66bb8c28ae0a?Product=NF18ACV%20User%20Guide.pdf">View / Download</a></td>
     </tr>
   </tbody>
-</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Smart Modem</title><link href="http://localhost:4000/hotshot/2024/07/07/smart-modem.html" rel="alternate" type="text/html" title="Smart Modem" /><published>2024-07-07T10:17:00+00:00</published><updated>2024-07-07T10:17:00+00:00</updated><id>http://localhost:4000/hotshot/2024/07/07/smart-modem</id><content type="html" xml:base="http://localhost:4000/hotshot/2024/07/07/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" height="50%" width="49%" />
-<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" height="50%" width="50%" /></p>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Smart Modem</title><link href="http://localhost:4000/hotshot/2024/07/07/smart-modem.html" rel="alternate" type="text/html" title="Smart Modem" /><published>2024-07-07T10:17:00+00:00</published><updated>2024-07-07T10:17:00+00:00</updated><id>http://localhost:4000/hotshot/2024/07/07/smart-modem</id><content type="html" xml:base="http://localhost:4000/hotshot/2024/07/07/smart-modem.html"><![CDATA[<p><img src="https://www.skinny.co.nz/content/dam/skinny-aem/skinny-smart-modem.png" class="modem_image" />
+<img src="https://tweakers.net/i/d9X-HYbvNhCdBR1v5gzVnrrGYzM=/fit-in/656x/filters:strip_exif()/i/2002079575.png?f=imagenormal" class="modem_image" /></p>
 
 <h3 id="capabilities">Capabilities</h3>
 
