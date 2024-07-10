@@ -27,11 +27,3 @@ date: 2024-07-13 10:17 +0000
 | :-: | :-: |
 | Spark User Guide | [View / Download](https://www.spark.co.nz/content/dam/telecomcms/modems/Spark-Smart-Modem-QSG.pdf) |
 | Bigpipe FAQs | [View](https://www.bigpipe.co.nz/faq/faq-hardware/faq-smart-modem/how-do-i-change-my-smart-modem-wifi-settings) |
-
-<!--
-### Guides ([ADSL](#ADSL)  /  [VDSL](#VDSL)  /  [FIBRE](#FIBRE)  /  [VoIP](#VoIP))
-#### ADSL {#ADSL}
-#### VDSL {#VDSL}
-#### FIRBE {#FIBRE}
-#### VoIP {#VoIP}
--->

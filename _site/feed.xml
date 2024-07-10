@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-10T10:28:06+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NZ Modem Configurations</title><subtitle>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-10T11:02:20+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">NZ Modem Configurations</title><subtitle>This site is designed to provide settings for common modem/routers found within New Zealand so they can connect to local Internet Service Providers (ISP).
 </subtitle><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><entry><title type="html">VRV9517</title><link href="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html" rel="alternate" type="text/html" title="VRV9517" /><published>2024-07-10T10:17:00+00:00</published><updated>2024-07-10T10:17:00+00:00</updated><id>http://localhost:4000/arcadyan/2024/07/10/smart-modem</id><content type="html" xml:base="http://localhost:4000/arcadyan/2024/07/10/smart-modem.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
 
 <table>
@@ -80,15 +80,7 @@
       <td style="text-align: center"><a href="https://www.bigpipe.co.nz/faq/faq-hardware/faq-smart-modem/how-do-i-change-my-smart-modem-wifi-settings">View</a></td>
     </tr>
   </tbody>
-</table>
-
-<!--
-### Guides ([ADSL](#ADSL)  /  [VDSL](#VDSL)  /  [FIBRE](#FIBRE)  /  [VoIP](#VoIP))
-#### ADSL {#ADSL}
-#### VDSL {#VDSL}
-#### FIRBE {#FIBRE}
-#### VoIP {#VoIP}
--->]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Arcadyan" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">HG659b</title><link href="http://localhost:4000/huawei/2024/07/10/hg659b.html" rel="alternate" type="text/html" title="HG659b" /><published>2024-07-10T10:04:00+00:00</published><updated>2024-07-10T10:04:00+00:00</updated><id>http://localhost:4000/huawei/2024/07/10/hg659b</id><content type="html" xml:base="http://localhost:4000/huawei/2024/07/10/hg659b.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Arcadyan" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">HG659b</title><link href="http://localhost:4000/huawei/2024/07/10/hg659b.html" rel="alternate" type="text/html" title="HG659b" /><published>2024-07-10T10:04:00+00:00</published><updated>2024-07-10T10:04:00+00:00</updated><id>http://localhost:4000/huawei/2024/07/10/hg659b</id><content type="html" xml:base="http://localhost:4000/huawei/2024/07/10/hg659b.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
 
 <table>
   <thead>
@@ -176,16 +168,20 @@
 
 <h3 id="supporting-resources">Supporting Resources</h3>
 
-<p>| Resource | Link |
-| :-: | :-: |
-| Manual | <a href="https://www.manual.nz/huawei/hg659b/manual">View</a> |
-&lt;!–</p>
-<h3 id="guides-adsl----vdsl----fibre----voip">Guides (<a href="#ADSL">ADSL</a>  /  <a href="#VDSL">VDSL</a>  /  <a href="#FIBRE">FIBRE</a>  /  <a href="#VoIP">VoIP</a>)</h3>
-<h4 id="ADSL">ADSL</h4>
-<h4 id="VDSL">VDSL</h4>
-<h4 id="FIBRE">FIRBE</h4>
-<h4 id="VoIP">VoIP</h4>
-<p>–&gt;</p>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Huawei" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">HX510</title><link href="http://localhost:4000/tp%20link/2024/07/08/hx510.html" rel="alternate" type="text/html" title="HX510" /><published>2024-07-08T09:05:00+00:00</published><updated>2024-07-08T09:05:00+00:00</updated><id>http://localhost:4000/tp%20link/2024/07/08/hx510</id><content type="html" xml:base="http://localhost:4000/tp%20link/2024/07/08/hx510.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Resource</th>
+      <th style="text-align: center">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Manual</td>
+      <td style="text-align: center"><a href="https://www.manual.nz/huawei/hg659b/manual">View</a></td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Huawei" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">HX510</title><link href="http://localhost:4000/tp%20link/2024/07/08/hx510.html" rel="alternate" type="text/html" title="HX510" /><published>2024-07-08T09:05:00+00:00</published><updated>2024-07-08T09:05:00+00:00</updated><id>http://localhost:4000/tp%20link/2024/07/08/hx510</id><content type="html" xml:base="http://localhost:4000/tp%20link/2024/07/08/hx510.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
 
 <table>
   <thead>
@@ -264,13 +260,7 @@
       <td style="text-align: center"><a href="https://static.tp-link.com/upload/manual/2023/202305/20230511/7109505768_Whole%20Home%20Mesh%20Wi-Fi%20AP%E5%A4%9A%E6%9C%BA%E5%9E%8B_QIG_V1.0.2.pdf">View / Download</a></td>
     </tr>
   </tbody>
-</table>
-
-<!-- ### Guides ([ADSL](#ADSL)  /  [VDSL](#VDSL)  /  [FIBRE](#FIBRE)  /  [VoIP](#VoIP))
-#### ADSL {#ADSL}
-#### VDSL {#VDSL}
-#### FIRBE {#FIBRE}
-#### VoIP {#VoIP} -->]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="TP Link" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">NF18ACV</title><link href="http://localhost:4000/netcomm/2024/07/08/nf18acv.html" rel="alternate" type="text/html" title="NF18ACV" /><published>2024-07-08T07:14:00+00:00</published><updated>2024-07-08T07:14:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/08/nf18acv</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/08/nf18acv.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="TP Link" /><summary type="html"><![CDATA[Capabilities]]></summary></entry><entry><title type="html">NF18ACV</title><link href="http://localhost:4000/netcomm/2024/07/08/nf18acv.html" rel="alternate" type="text/html" title="NF18ACV" /><published>2024-07-08T07:14:00+00:00</published><updated>2024-07-08T07:14:00+00:00</updated><id>http://localhost:4000/netcomm/2024/07/08/nf18acv</id><content type="html" xml:base="http://localhost:4000/netcomm/2024/07/08/nf18acv.html"><![CDATA[<h3 id="capabilities">Capabilities</h3>
 
 <table>
   <thead>
@@ -369,10 +359,4 @@
       <td style="text-align: center"><a href="https://support.netcommwireless.com/api/Media/Document/faac836c-5f79-40e9-8180-66bb8c28ae0a?Product=NF18ACV%20User%20Guide.pdf">View / Download</a></td>
     </tr>
   </tbody>
-</table>
-
-<!-- ### Guides ([ADSL](#ADSL) / [VDSL](#VDSL) / [FIBRE](#FIBRE) / [VoIP](#VoIP))
-#### ADSL {#ADSL}
-#### VDSL {#VDSL}
-#### FIRBE {#FIBRE}
-#### VoIP {#VoIP} -->]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[Capabilities]]></summary></entry></feed>
+</table>]]></content><author><name>Nikolai Jamez</name><email>nikolaijamez@gmail.com</email></author><category term="Netcomm" /><summary type="html"><![CDATA[Capabilities]]></summary></entry></feed>

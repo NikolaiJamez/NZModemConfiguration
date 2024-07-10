@@ -47,23 +47,26 @@
 
   <div class="post-content">
     <h3 id="standard_settings">Standard Fibre Settings</h3>
+
 <ul>
   <li>Operating Mode: Fibre or Ethernet WAN</li>
   <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
   <li>MTU or MRU: 1492 or 1500</li>
   <li>VLAN or 802.1q: Enabled</li>
   <li>VLAN ID: 10</li>
-  <li>Vlan Priority or 802.1p: 0</li>
-  <li>NAT: Enabled, Full Cone</li>
+  <li>VLAN Priority or 802.1p: 0</li>
 </ul>
 
 <h3 id="isp-specific">ISP Specific</h3>
 <h4 id="list">List</h4>
 <ul>
-  <li><a href="#2degrees">2Degrees</a></li>
+  <li><a href="#two_degrees">2Degrees</a></li>
+  <li><a href="#bigpipe">Bigpipe</a></li>
   <li><a href="#contact_energy">Contact Energy</a></li>
+  <li><a href="#hotshot">Hotshot</a></li>
   <li><a href="#mercury">Mercury</a></li>
   <li><a href="#one_nz">One NZ</a></li>
+  <li><a href="#skinny">Skinny</a></li>
   <li><a href="#spark">Spark</a></li>
   <li><a href="#trustpower">Trustpower</a></li>
 </ul>
@@ -74,7 +77,7 @@
 #### Provider_Name
 ##### ADSL
 
-- Operating Mode: 
+- Operating Mode: ADSL or ATM
 - PPP Protocol: 
 - PPP Username: 
 - PPP Password: 
@@ -96,7 +99,7 @@
 
 ##### VDSL
 
-- Operating Mode: 
+- Operating Mode: VDSL or PTM
 - PPP Protocol: 
 - PPP Username: 
 - PPP Password: 
@@ -118,7 +121,7 @@
 
 ##### FIBRE
 
-- Operating Mode: 
+- Operating Mode: Fibre or Ethernet WAN
 - Access Type: 
 - VPI: 
 - VCI: 
@@ -137,11 +140,11 @@
 ##### VoIP
 -->
 
-<h4 id="2degrees">2Degrees</h4>
+<h4 id="two_degrees">2Degrees</h4>
 <h5 id="adsl">ADSL</h5>
 
 <ul>
-  <li>Operating Mode: ADSL</li>
+  <li>Operating Mode: ADSL or ATM</li>
   <li>PPP Protocol: PPP over ATM (PPPoA)</li>
   <li>PPP Username: putanything@2degrees.nz</li>
   <li>PPP Password: putanything</li>
@@ -155,7 +158,7 @@
 <h5 id="vdsl">VDSL</h5>
 
 <ul>
-  <li>Operating Mode: VDSL</li>
+  <li>Operating Mode: VDSL or PTM</li>
   <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
   <li>PPP Username: putanything@2degrees.nz</li>
   <li>PPP Password: putanything</li>
@@ -179,11 +182,54 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
 
 <hr />
 
-<h4 id="contact_energy">Contact Energy</h4>
+<h4 id="bigpipe">Bigpipe</h4>
 <h5 id="adsl-1">ADSL</h5>
 
 <ul>
-  <li>Operating Mode: ADSL</li>
+  <li>Operating Mode: ADSL or ATM</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: Bigpipe</li>
+  <li>PPP Password: Bigpipe</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Multiplexing: VCMUX</li>
+  <li>MTU: 1492</li>
+</ul>
+
+<h5 id="vdsl-1">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: Anything</li>
+  <li>PPP Password: Anything</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492</li>
+</ul>
+
+<h5 id="fibre-1">FIBRE</h5>
+
+<ul>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: Anything</li>
+  <li>PPP Password: Anything</li>
+  <li>MTU: 1492</li>
+</ul>
+
+<h5 id="voip-1">VoIP</h5>
+
+<p>Not disclosed</p>
+
+<hr />
+
+<h4 id="contact_energy">Contact Energy</h4>
+<h5 id="adsl-2">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL or ATM</li>
   <li>PPP Protocol: PPPoE</li>
   <li>PPP Username: user@contactenergy.co.nz</li>
   <li>PPP Password: c0nt4ct-3n3rgy!</li>
@@ -198,7 +244,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>NAT: Enabled, Full Cone</li>
 </ul>
 
-<h5 id="vdsl-1">VDSL</h5>
+<h5 id="vdsl-2">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -216,35 +262,81 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>NAT: Enabled, Full Cone</li>
 </ul>
 
-<h5 id="fibre-1">FIBRE</h5>
+<h5 id="fibre-2">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip-1">VoIP</h5>
+<h5 id="voip-2">VoIP</h5>
 
 <p>Not disclosed</p>
 
 <hr />
 
-<h4 id="mercury">Mercury</h4>
-<h5 id="adsl-2">ADSL</h5>
+<h4 id="hotshot">Hotshot</h4>
+<h5 id="adsl-3">ADSL</h5>
+
+<p>Doesn’t service</p>
+
+<h5 id="vdsl-3">VDSL</h5>
+
+<p>Doesn’t service</p>
+
+<h5 id="fibre-3">FIBRE</h5>
 
 <ul>
-  <li>Operating Mode:</li>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: HotShotFibre</li>
+  <li>PPP Password: UrDaBest</li>
+  <li>VLAN or 802.1q:
+    <ul>
+      <li>If you joined before 01/06/2020 and are:
+        <ul>
+          <li>In Auckland: Disabled</li>
+          <li>Outside of Auckland: Enabled</li>
+        </ul>
+      </li>
+      <li>If you joined on/after 01/06/2020: Disabled</li>
+    </ul>
+  </li>
+  <li>VLAN ID:
+    <ul>
+      <li>If you joined before 01/06/2020 and are outside of Auckland: 10</li>
+    </ul>
+  </li>
+  <li>VLAN Priority or 802.1p:
+    <ul>
+      <li>If you joined before 01/06/2020 and are outside of Auckland: 0</li>
+    </ul>
+  </li>
+  <li>MTU: 1492</li>
+  <li>MSS: 1452</li>
+</ul>
+
+<h5 id="voip-3">VoIP</h5>
+
+<p>Doesn’t service</p>
+
+<hr />
+
+<h4 id="mercury">Mercury</h4>
+<h5 id="adsl-4">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL or ATM</li>
   <li>PPP Protocol: PPP over ATM (PPPoA)</li>
   <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
   <li>PPP Password: pass123</li>
   <li>VPI: 0</li>
   <li>VCI: 100</li>
   <li>Multiplexing: VCMUX</li>
-  <li>VLAN Priority or 802.1p:</li>
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-2">VDSL</h5>
+<h5 id="vdsl-4">VDSL</h5>
 
 <ul>
-  <li>Operating Mode: VDSL2</li>
+  <li>Operating Mode: VDSL or PTM</li>
   <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
   <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
   <li>PPP Password: pass123</li>
@@ -256,21 +348,21 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="fibre-2">FIBRE</h5>
+<h5 id="fibre-4">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip-2">VoIP</h5>
+<h5 id="voip-4">VoIP</h5>
 
 <p>Not disclosed</p>
 
 <hr />
 
 <h4 id="one_nz">One NZ</h4>
-<h5 id="adsl-3">ADSL</h5>
+<h5 id="adsl-5">ADSL</h5>
 
 <ul>
-  <li>Operating Mode: ADSL</li>
+  <li>Operating Mode: ADSL or ATM</li>
   <li>PPP Protocol: PPP over ATM (PPPoA)</li>
   <li>PPP Username: User</li>
   <li>PPP Password: User</li>
@@ -280,7 +372,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>Secondary DNS: 203.118.191.1</li>
 </ul>
 
-<h5 id="vdsl-3">VDSL</h5>
+<h5 id="vdsl-5">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -294,10 +386,10 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>IPv6 Address Type: DHCP</li>
 </ul>
 
-<h5 id="fibre-3">FIBRE</h5>
+<h5 id="fibre-5">FIBRE</h5>
 
 <ul>
-  <li>Operating Mode: Ethernet</li>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
   <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
   <li>VLAN or 802.1q: Enabled</li>
   <li>VLAN ID: 10</li>
@@ -308,17 +400,60 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>IPv6 Address Type: DHCP</li>
 </ul>
 
-<h5 id="voip-3">VoIP</h5>
+<h5 id="voip-5">VoIP</h5>
 
 <p>Not Disclosed</p>
 
 <hr />
 
-<h4 id="spark">Spark</h4>
-<h5 id="adsl-4">ADSL</h5>
+<h4 id="skinny">Skinny</h4>
+<h5 id="adsl-6">ADSL</h5>
 
 <ul>
-  <li>Operating Mode: ADSL</li>
+  <li>Operating Mode: ADSL or ATM</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: user@skinny.co.nz</li>
+  <li>PPP Password: password</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+</ul>
+
+<h5 id="vdsl-6">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: user@skinny.co.nz</li>
+  <li>PPP Password: password</li>
+  <li>VPI: 0</li>
+  <li>VCI: 110</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1500</li>
+</ul>
+
+<h5 id="fibre-6">FIBRE</h5>
+
+<ul>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: user@skinny.co.nz</li>
+  <li>PPP Password: password</li>
+  <li>MTU: 1500</li>
+</ul>
+
+<h5 id="voip-6">VoIP</h5>
+
+<p>Doesn’t service</p>
+
+<hr />
+
+<h4 id="spark">Spark</h4>
+<h5 id="adsl-7">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL or ATM</li>
   <li>PPP Protocol: PPP over ATM (PPPoA)</li>
   <li>PPP Username: user@spark.co.nz</li>
   <li>PPP Password: password</li>
@@ -330,10 +465,10 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-4">VDSL</h5>
+<h5 id="vdsl-7">VDSL</h5>
 
 <ul>
-  <li>Operating Mode: VDSL</li>
+  <li>Operating Mode: VDSL or PTM</li>
   <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
   <li>PPP Username: user@spark.co.nz</li>
   <li>PPP Password: password</li>
@@ -344,10 +479,10 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: Auto or 1500</li>
 </ul>
 
-<h5 id="fibre-4">FIBRE</h5>
+<h5 id="fibre-7">FIBRE</h5>
 
 <ul>
-  <li>Operating Mode: Fibre</li>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
   <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
   <li>PPP Username: user@spark.co.nz</li>
   <li>PPP Password: password</li>
@@ -359,15 +494,15 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: Auto or 1500</li>
 </ul>
 
-<h5 id="voip-4">VoIP</h5>
+<h5 id="voip-7">VoIP</h5>
 
 <hr />
 
 <h4 id="trustpower">Trustpower</h4>
-<h5 id="adsl-5">ADSL</h5>
+<h5 id="adsl-8">ADSL</h5>
 
 <ul>
-  <li>Operating Mode:</li>
+  <li>Operating Mode: ADSL or ATM</li>
   <li>PPP Protocol: PPP over ATM (PPPoA)</li>
   <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
   <li>PPP Password: pass123</li>
@@ -378,10 +513,10 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-5">VDSL</h5>
+<h5 id="vdsl-8">VDSL</h5>
 
 <ul>
-  <li>Operating Mode: VDSL2</li>
+  <li>Operating Mode: VDSL or PTM</li>
   <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
   <li>PPP Username: username@kinect.co.nz (Where username is replaced with your chosen username)</li>
   <li>PPP Password: pass123</li>
@@ -393,11 +528,11 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="fibre-5">FIBRE</h5>
+<h5 id="fibre-8">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip-5">VoIP</h5>
+<h5 id="voip-8">VoIP</h5>
 
 <p>Not disclosed</p>
 

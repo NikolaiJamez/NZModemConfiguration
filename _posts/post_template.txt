@@ -18,10 +18,3 @@
 | Resource | Link |
 | :-: | :-: |
 | Resource | [Link]() |
-<!--
-### Guides ([ADSL](#ADSL)  /  [VDSL](#VDSL)  /  [FIBRE](#FIBRE)  /  [VoIP](#VoIP))
-#### ADSL {#ADSL}
-#### VDSL {#VDSL}
-#### FIRBE {#FIBRE}
-#### VoIP {#VoIP}
--->
