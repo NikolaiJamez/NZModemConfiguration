@@ -18,8 +18,11 @@ title: ISP Settings
 - [Contact Energy](#contact_energy)
 - [Hotshot](#hotshot)
 - [Mercury](#mercury)
+- [NOW NZ](#now_nz)
 - [One NZ](#one_nz)
+- [Orcon](#orcon)
 - [Skinny](#skinny)
+- [Slingshot](#slingshot)
 - [Spark](#spark)
 - [Trustpower](#trustpower)
 
@@ -278,6 +281,45 @@ Not disclosed
 
 ---
 
+#### NOW NZ {#now_nz}
+##### ADSL
+
+- Operating Mode: ADSL or ATM
+- PPP Protocol: PPP over ATM (PPPoA)
+- PPP Username: NOW NZ Account Number
+- PPP Password: NOW NZ Account Number
+- VPI: 0
+- VCI: 100
+- Multiplexing: VCMUX
+
+##### VDSL
+
+- Operating Mode: VDSL or PTM
+- Connection Type Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+
+##### FIBRE
+
+- Operating Mode: Fibre or Ethernet WAN
+- PPP Protocol: PPP over Ethernet (PPPoE)
+- PPP Username: NOW NZ Account Number
+- PPP Password: NOW NZ Account Number
+- VLAN or 802.1q: 
+    - If you joined before December 2021: Disabled
+    - If you joined after December 2021: Enabled
+- VLAN ID: 
+    - If you joined after December 2021: 10
+- VLAN Priority or 802.1p: 
+    - If you joined after December 2021: 0
+
+##### VoIP
+
+Not disclosed
+
+---
+
 #### One NZ {#one_nz}
 ##### ADSL
 
@@ -293,7 +335,7 @@ Not disclosed
 ##### VDSL
 
 - Operating Mode: VDSL or PTM
-- Access Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
+- Connection Type Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
 - VLAN or 802.1q: Enabled
 - VLAN ID: 10
 - VLAN Priority or 802.1p: 0
@@ -317,6 +359,51 @@ Not disclosed
 ##### VoIP
 
 Not Disclosed
+
+---
+
+#### Orcon
+##### ADSL
+
+- Operating Mode: ADSL or ATM
+- PPP Protocol: PPP over ATM (PPPoA)
+- PPP Username: putanything@orcon.net.nz
+- PPP Password: putanything
+- VPI: 0
+- VCI: 100
+- Multiplexing: VCMUX
+- MTU: 1492 or 1500
+
+##### VDSL
+
+- Operating Mode: VDSL or PTM
+- PPP Protocol: PPP over Ethernet (PPPoE)
+- PPP Username: putanything@orcon.net.nz
+- PPP Password: putanything
+- Authentication mode: PAP
+- PCP: 0
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: 1492 or 1500
+- NAT: Enabled
+
+##### FIBRE
+
+- Operating Mode: Fibre or Ethernet WAN
+- Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: 1492 or 1500
+- NAT: Enabled
+- IP Protocal Version: IPv4 + IPv6
+- IPv4 Address Type: DHCP
+- IPv6 Address Type: DHCP
+
+##### VoIP
+
+Not disclosed
 
 ---
 
@@ -354,6 +441,51 @@ Not Disclosed
 ##### VoIP
 
 Doesn't service
+
+---
+
+#### Slingshot {#slingshot}
+##### ADSL
+
+- Operating Mode: ADSL or ATM
+- PPP Protocol: PPP over ATM (PPPoA)
+- PPP Username: putanything@slingshot.co.nz
+- PPP Password: putanything
+- VPI: 0
+- VCI: 100
+- Multiplexing: VCMUX
+- MTU: 1492 or 1500
+
+##### VDSL
+
+- Operating Mode: VDSL or PTM
+- PPP Protocol: PPP over Ethernet (PPPoE)
+- PPP Username: putanything@slingshot.co.nz
+- PPP Password: putanything
+- Authentication mode: PAP
+- PCP: 0
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: 1492 or 1500
+- NAT: Enabled
+
+##### FIBRE
+
+- Operating Mode: Fibre or Ethernet WAN
+- Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP
+- VLAN or 802.1q: Enabled
+- VLAN ID: 10
+- VLAN Priority or 802.1p: 0
+- MTU: 1492 or 1500
+- NAT: Enabled
+- IP Protocal Version: IPv4 + IPv6
+- IPv4 Address Type: DHCP
+- IPv6 Address Type: DHCP
+
+##### VoIP
+
+Doesn't disclose
 
 ---
 

@@ -65,8 +65,11 @@
   <li><a href="#contact_energy">Contact Energy</a></li>
   <li><a href="#hotshot">Hotshot</a></li>
   <li><a href="#mercury">Mercury</a></li>
+  <li><a href="#now_nz">NOW NZ</a></li>
   <li><a href="#one_nz">One NZ</a></li>
+  <li><a href="#orcon">Orcon</a></li>
   <li><a href="#skinny">Skinny</a></li>
+  <li><a href="#slingshot">Slingshot</a></li>
   <li><a href="#spark">Spark</a></li>
   <li><a href="#trustpower">Trustpower</a></li>
 </ul>
@@ -358,8 +361,62 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
 
 <hr />
 
-<h4 id="one_nz">One NZ</h4>
+<h4 id="now_nz">NOW NZ</h4>
 <h5 id="adsl-5">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL or ATM</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: NOW NZ Account Number</li>
+  <li>PPP Password: NOW NZ Account Number</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Multiplexing: VCMUX</li>
+</ul>
+
+<h5 id="vdsl-5">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>Connection Type Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+</ul>
+
+<h5 id="fibre-5">FIBRE</h5>
+
+<ul>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: NOW NZ Account Number</li>
+  <li>PPP Password: NOW NZ Account Number</li>
+  <li>VLAN or 802.1q:
+    <ul>
+      <li>If you joined before December 2021: Disabled</li>
+      <li>If you joined after December 2021: Enabled</li>
+    </ul>
+  </li>
+  <li>VLAN ID:
+    <ul>
+      <li>If you joined after December 2021: 10</li>
+    </ul>
+  </li>
+  <li>VLAN Priority or 802.1p:
+    <ul>
+      <li>If you joined after December 2021: 0</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="voip-5">VoIP</h5>
+
+<p>Not disclosed</p>
+
+<hr />
+
+<h4 id="one_nz">One NZ</h4>
+<h5 id="adsl-6">ADSL</h5>
 
 <ul>
   <li>Operating Mode: ADSL or ATM</li>
@@ -372,11 +429,11 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>Secondary DNS: 203.118.191.1</li>
 </ul>
 
-<h5 id="vdsl-5">VDSL</h5>
+<h5 id="vdsl-6">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
-  <li>Access Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>Connection Type Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
   <li>VLAN or 802.1q: Enabled</li>
   <li>VLAN ID: 10</li>
   <li>VLAN Priority or 802.1p: 0</li>
@@ -386,7 +443,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>IPv6 Address Type: DHCP</li>
 </ul>
 
-<h5 id="fibre-5">FIBRE</h5>
+<h5 id="fibre-6">FIBRE</h5>
 
 <ul>
   <li>Operating Mode: Fibre or Ethernet WAN</li>
@@ -400,14 +457,65 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>IPv6 Address Type: DHCP</li>
 </ul>
 
-<h5 id="voip-5">VoIP</h5>
+<h5 id="voip-6">VoIP</h5>
 
 <p>Not Disclosed</p>
 
 <hr />
 
+<h4 id="orcon">Orcon</h4>
+<h5 id="adsl-7">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL or ATM</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: putanything@orcon.net.nz</li>
+  <li>PPP Password: putanything</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Multiplexing: VCMUX</li>
+  <li>MTU: 1492 or 1500</li>
+</ul>
+
+<h5 id="vdsl-7">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: putanything@orcon.net.nz</li>
+  <li>PPP Password: putanything</li>
+  <li>Authentication mode: PAP</li>
+  <li>PCP: 0</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>NAT: Enabled</li>
+</ul>
+
+<h5 id="fibre-7">FIBRE</h5>
+
+<ul>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
+  <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>NAT: Enabled</li>
+  <li>IP Protocal Version: IPv4 + IPv6</li>
+  <li>IPv4 Address Type: DHCP</li>
+  <li>IPv6 Address Type: DHCP</li>
+</ul>
+
+<h5 id="voip-7">VoIP</h5>
+
+<p>Not disclosed</p>
+
+<hr />
+
 <h4 id="skinny">Skinny</h4>
-<h5 id="adsl-6">ADSL</h5>
+<h5 id="adsl-8">ADSL</h5>
 
 <ul>
   <li>Operating Mode: ADSL or ATM</li>
@@ -418,7 +526,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>VCI: 100</li>
 </ul>
 
-<h5 id="vdsl-6">VDSL</h5>
+<h5 id="vdsl-8">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -433,7 +541,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="fibre-6">FIBRE</h5>
+<h5 id="fibre-8">FIBRE</h5>
 
 <ul>
   <li>Operating Mode: Fibre or Ethernet WAN</li>
@@ -443,14 +551,65 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="voip-6">VoIP</h5>
+<h5 id="voip-8">VoIP</h5>
 
 <p>Doesn’t service</p>
 
 <hr />
 
+<h4 id="slingshot">Slingshot</h4>
+<h5 id="adsl-9">ADSL</h5>
+
+<ul>
+  <li>Operating Mode: ADSL or ATM</li>
+  <li>PPP Protocol: PPP over ATM (PPPoA)</li>
+  <li>PPP Username: putanything@slingshot.co.nz</li>
+  <li>PPP Password: putanything</li>
+  <li>VPI: 0</li>
+  <li>VCI: 100</li>
+  <li>Multiplexing: VCMUX</li>
+  <li>MTU: 1492 or 1500</li>
+</ul>
+
+<h5 id="vdsl-9">VDSL</h5>
+
+<ul>
+  <li>Operating Mode: VDSL or PTM</li>
+  <li>PPP Protocol: PPP over Ethernet (PPPoE)</li>
+  <li>PPP Username: putanything@slingshot.co.nz</li>
+  <li>PPP Password: putanything</li>
+  <li>Authentication mode: PAP</li>
+  <li>PCP: 0</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>NAT: Enabled</li>
+</ul>
+
+<h5 id="fibre-9">FIBRE</h5>
+
+<ul>
+  <li>Operating Mode: Fibre or Ethernet WAN</li>
+  <li>Connection Type: Dynamic IP, IPoE (IP over Ethernet), Automatic IP or DHCP</li>
+  <li>VLAN or 802.1q: Enabled</li>
+  <li>VLAN ID: 10</li>
+  <li>VLAN Priority or 802.1p: 0</li>
+  <li>MTU: 1492 or 1500</li>
+  <li>NAT: Enabled</li>
+  <li>IP Protocal Version: IPv4 + IPv6</li>
+  <li>IPv4 Address Type: DHCP</li>
+  <li>IPv6 Address Type: DHCP</li>
+</ul>
+
+<h5 id="voip-9">VoIP</h5>
+
+<p>Doesn’t disclose</p>
+
+<hr />
+
 <h4 id="spark">Spark</h4>
-<h5 id="adsl-7">ADSL</h5>
+<h5 id="adsl-10">ADSL</h5>
 
 <ul>
   <li>Operating Mode: ADSL or ATM</li>
@@ -465,7 +624,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-7">VDSL</h5>
+<h5 id="vdsl-10">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -479,7 +638,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: Auto or 1500</li>
 </ul>
 
-<h5 id="fibre-7">FIBRE</h5>
+<h5 id="fibre-10">FIBRE</h5>
 
 <ul>
   <li>Operating Mode: Fibre or Ethernet WAN</li>
@@ -494,12 +653,12 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: Auto or 1500</li>
 </ul>
 
-<h5 id="voip-7">VoIP</h5>
+<h5 id="voip-10">VoIP</h5>
 
 <hr />
 
 <h4 id="trustpower">Trustpower</h4>
-<h5 id="adsl-8">ADSL</h5>
+<h5 id="adsl-11">ADSL</h5>
 
 <ul>
   <li>Operating Mode: ADSL or ATM</li>
@@ -513,7 +672,7 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="vdsl-8">VDSL</h5>
+<h5 id="vdsl-11">VDSL</h5>
 
 <ul>
   <li>Operating Mode: VDSL or PTM</li>
@@ -528,11 +687,11 @@ For Fibre: This is provided via the Optical Network Terminal, no configuration n
   <li>MTU: 1500</li>
 </ul>
 
-<h5 id="fibre-8">FIBRE</h5>
+<h5 id="fibre-11">FIBRE</h5>
 
 <p><a href="#standard_settings">Standard Settings</a></p>
 
-<h5 id="voip-8">VoIP</h5>
+<h5 id="voip-11">VoIP</h5>
 
 <p>Not disclosed</p>
 
