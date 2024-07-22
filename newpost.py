@@ -1,9 +1,10 @@
 from datetime import datetime
 from sys import argv
 from os.path import join
+import subprocess
 
 
-POST_DIR = r"./_posts/"
+POST_DIR = r".\\_posts\\"
 
 
 def safe_str(in_str: str) -> str:
@@ -51,6 +52,8 @@ def main() -> None:
     
     with open(post_file_path, "w") as outfile:
         outfile.writelines(front_matter + post_template)
+
+    subprocess.run(["code", post_file_path])
 
 
 if __name__ == "__main__":
