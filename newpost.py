@@ -1,9 +1,10 @@
 from datetime import datetime
 from sys import argv
 from os.path import join
+from os import makedirs
 
 
-POST_DIR = r"./_posts/"
+MAIN_DIR = r"./"
 
 
 def safe_str(in_str: str) -> str:
@@ -13,10 +14,12 @@ def safe_str(in_str: str) -> str:
 
 
 def main() -> None:
+    makedirs(f"{modem_brand}/_posts")
+
     front_matter = (
         "---\n"
         "layout: post\n"
-        f"category: \"{modem_brand}\"\n"
+        # f"category: \"{modem_brand}\"\n"
         f"title: \"{modem_model}\"\n"
         f"date: \"{post_datetime}\"\n"
         "---"
@@ -47,7 +50,7 @@ def main() -> None:
 | Resource | [Link]() |
 """
     post_file_name = f"{post_date}-{safe_str(modem_brand)}-{safe_str(modem_model)}.md"
-    post_file_path = join(POST_DIR, post_file_name)
+    post_file_path = join(MAIN_DIR, modem_brand,"_posts", post_file_name)
     
     with open(post_file_path, "w") as outfile:
         outfile.writelines(front_matter + post_template)
