@@ -8,6 +8,15 @@ POST_DIR = r".\\_posts\\"
 
 
 def safe_str(in_str: str) -> str:
+    """
+    Returns a Jekyll-safe version of the input string
+
+        Parameters:
+            in_str (str): Input string
+
+        Returns:
+            out_str (str): Jekyll-safe output string
+    """
     out_str = in_str.lower()
     out_str = out_str.replace(" ", "-")
     return out_str
