@@ -59,7 +59,7 @@ if __name__ == "__main__":
     if arg_size < 2:
         err_str = (
             f"2 arguments need be given, {arg_size} provided\n"
-            "Your command should read \"./newpost.py modem_brand modem_model\"\n"
+            "Your command should read \"./newpost.py 'modem brand' 'modem model'\"\n"
         )
         raise ValueError(err_str)
     
