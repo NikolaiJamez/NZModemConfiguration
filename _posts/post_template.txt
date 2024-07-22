@@ -2,7 +2,7 @@
 layout: post
 category: MODEM_BRAND
 title: MODEM_MODEL
-date: IN_FORMAT(2024-07-07 10:17 +0000)
+date: IN_FORMAT(2024-07-07)
 ---
 <img src="{{ "assets/img/XXXXXX_front.jpg" | relative_url }}" class="modem_image">
 <img src="{{ "assets/img/XXXXXX_rear.jpg" | relative_url }}" class="modem_image">
