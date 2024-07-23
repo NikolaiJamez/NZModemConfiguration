@@ -20,8 +20,8 @@ date: "2024-07-23 13:19:36"
 
 | Provider | Username | Password | IP Address |
 | :-: | :-: | :-: | :-: |
-| TP Link | Set by user when first accessing | Set by user when first accessing | Set by user when first accessing |
-| One NZ | Set by user when first accessing | Set by user when first accessing | Set by user when first accessing |
+| TP Link | Set by user when first accessing device | Set by user when first accessing device | Set by user when first accessing device |
+| One NZ | Set by user when first accessing device | Set by user when first accessing device | Set by user when first accessing device |
 
 ### Supporting Resources
 
