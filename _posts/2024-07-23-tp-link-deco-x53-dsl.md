@@ -5,7 +5,7 @@ title: "Deco X53-DSL"
 date: "2024-07-23 13:19:36"
 ---
 <img src="https://www.pbtech.co.nz/imgprod/M/O/MODTPL6501.jpg?h=1333426157" class="modem_image">
-<img src="https://static.tp-link.com/upload/image-line/Deco-X50-DSL_02_normal_20221020122913t.jpg" class="modem_image">
+<img src="https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/TPDDSLX503_C_.jpg" class="modem_image">
 
 ### Capabilities
 
