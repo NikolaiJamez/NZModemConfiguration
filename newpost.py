@@ -1,10 +1,10 @@
+from os.path import join, realpath, dirname
 from datetime import datetime
 from sys import argv
-from os.path import join
-import subprocess
 
 
-POST_DIR = r".\\_posts\\"
+SCRIPT_PATH = dirname(realpath(__file__))
+POST_DIR = join(SCRIPT_PATH, "_posts")
 
 
 def safe_str(in_str: str) -> str:
@@ -61,8 +61,6 @@ def main() -> None:
     
     with open(post_file_path, "w") as outfile:
         outfile.writelines(front_matter + post_template)
-
-    subprocess.run(["code", post_file_path])
 
 
 if __name__ == "__main__":
