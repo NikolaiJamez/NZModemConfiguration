@@ -20,7 +20,7 @@ date: "2024-07-20 00:00:00 +1200"
 
 | Provider | Username | Password | IP Address |
 | :-: | :-: | :-: | :-: |
-| TP Link | None | Set by user when first accessing device | 192.168.88.1<br>tplinkwifi.net |
+| TP Link | None | Set by user when first accessing device | Only accessed via Deco app |
 | Contact Energy | None | password1 | 192.168.88.1 |
 
 ### Supporting Resources

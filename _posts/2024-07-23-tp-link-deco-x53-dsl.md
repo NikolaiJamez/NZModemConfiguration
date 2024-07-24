@@ -20,8 +20,8 @@ date: "2024-07-23 13:19:36 +1200"
 
 | Provider | Username | Password | IP Address |
 | :-: | :-: | :-: | :-: |
-| TP Link | Set by user when first accessing device | Set by user when first accessing device | Set by user when first accessing device |
-| One NZ | Set by user when first accessing device | Set by user when first accessing device | Set by user when first accessing device |
+| TP Link | Set by user when first accessing device | Set by user when first accessing device | Only accessed via Deco app |
+| One NZ | Set by user when first accessing device | Set by user when first accessing device | Only accessed via Deco app |
 
 ### Supporting Resources
 
