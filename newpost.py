@@ -75,7 +75,7 @@ if __name__ == "__main__":
     
     modem_brand = argv[1]
     modem_model = argv[2]
-    post_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    post_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " +1200"
     post_date = post_datetime[:10]
 
     main()

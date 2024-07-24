@@ -2,7 +2,7 @@
 layout: post
 category: "TP Link"
 title: "Archer VR2100"
-date: "2024-07-22 22:42:33"
+date: "2024-07-22 22:42:33 +1200"
 ---
 <img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODTPL2100__1.webp?h=2373139372" class="modem_image">
 <img src="https://www.pbtech.co.nz/imgprod/default/M/O/MODTPL2100__2.webp?h=343566870" class="modem_image">

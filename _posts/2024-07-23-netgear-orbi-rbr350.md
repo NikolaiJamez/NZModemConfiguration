@@ -2,7 +2,7 @@
 layout: post
 category: "Netgear"
 title: "Orbi RBR350"
-date: "2024-07-23 13:14:02"
+date: "2024-07-23 13:14:02 +1200"
 ---
 <img src="https://www.netgear.com/zone3/cid/fit/1024x633/to/jpg/https/www.netgear.com/ae/media/Hero_RBR350_tcm166-141652.png" class="modem_image">
 <img src="https://www.netgear.com/zone3/cid/fit/1024x633/https/www.netgear.com/ae/media/IMG_RBR350-3_tcm166-141654.jpg" class="modem_image">

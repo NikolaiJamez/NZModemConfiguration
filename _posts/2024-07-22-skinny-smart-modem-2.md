@@ -2,7 +2,7 @@
 layout: post
 category: Skinny
 title: Smart Modem 2
-date: "2024-07-22"
+date: "2024-07-22 00:00:00 +1200"
 ---
 <img src="https://www.spark.co.nz/content/dam/telecomcms/content-images/broadband/hardware/spark-smart-modem-2.png" class="modem_image">
 <img src="https://openwrt.org/_media/media/arcadyan/aw1000/arcadyan_aw1000_back.jpg?w=400&tok=2c2d10" class="modem_image">

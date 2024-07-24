@@ -2,7 +2,7 @@
 layout: post
 category: TP Link
 title: Deco M4
-date: "2024-07-22"
+date: "2024-07-22 00:00:00 +1200"
 ---
 <img src="https://www.pbtech.co.nz/imgprod/default/N/E/NETTPL9406__1.webp?h=1460049624" class="modem_image">
 <img src="https://www.pbtech.co.nz/imgprod/default/N/E/NETTPL9406__2.webp?h=536979022" class="modem_image">

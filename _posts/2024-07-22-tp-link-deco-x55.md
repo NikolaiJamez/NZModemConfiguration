@@ -2,7 +2,7 @@
 layout: post
 category: TP Link
 title: Deco X55
-date: "2024-07-20"
+date: "2024-07-20 00:00:00 +1200"
 ---
 <img src="https://www.pbtech.co.nz/imgprod/N/E/NETTPL6551__1.jpg?h=1574271759" class="modem_image">
 <img src="https://www.pbtech.co.nz/imgprod/N/E/NETTPL6551__2.jpg?h=718424985" class="modem_image">
