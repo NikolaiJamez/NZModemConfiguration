@@ -19,7 +19,10 @@ title: Modem Request Form
     });
   });
 </script>
-<form>
+<form
+  id="modem-request-form"
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbzVC9BO2BItSWnA5n7aEd3HH2x2GE-ikkwNgP8zHAy4CI19_GGj4lbA5ZzuQkF3LWDN/exec">
   <div class="form-group">
     <label for="name">Your Name</label>
     <input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter your name">
