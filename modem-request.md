@@ -32,5 +32,6 @@ title: Modem Request Form
   <h4>Modem Model</h4>
   <input label="Modem Model" name="Model" type="text" placeholder="e.g. Deco X55, etc..." required>
   <input name="Completed" type="hidden" value="FALSE" required>
+  <br>
   <button type="submit">Send</button>
 </form>
