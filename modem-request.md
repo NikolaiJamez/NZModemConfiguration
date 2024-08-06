@@ -40,19 +40,3 @@ title: Modem Request Form
   </div>
   <button type="submit" class="btn btn-secondary">Submit</button>
 </form>
-<!-- <form
-  id="modem-request-form"
-  method="POST" 
-  action="https://script.google.com/macros/s/AKfycbzVC9BO2BItSWnA5n7aEd3HH2x2GE-ikkwNgP8zHAy4CI19_GGj4lbA5ZzuQkF3LWDN/exec">
-  <h4>Your name</h4>
-  <input label="Your name" name="Name" type="test" placeholder="Your name" required>
-  <br>
-  <h4>Modem Make</h4>
-  <input label="Modem Make" name="Make" type="text" placeholder="e.g. TP Link, ASUS, etc..." required>
-  <br>
-  <h4>Modem Model</h4>
-  <input label="Modem Model" name="Model" type="text" placeholder="e.g. Deco X55, etc..." required>
-  <input name="Completed" type="hidden" value="FALSE" required>
-  <br>
-  <button type="submit">Send</button>
-</form> -->
