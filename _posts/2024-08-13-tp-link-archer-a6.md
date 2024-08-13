@@ -4,8 +4,8 @@ category: "TP Link"
 title: "Archer A6"
 date: "2024-08-13 12:45:41 +1200"
 ---
-<img src="https://static.tp-link.com/upload/image-line/1_large_20220629013415w.jpg" class="modem_image">
-<img src="https://static.tp-link.com/upload/image-line/3_large_20220629013416m.jpg" class="modem_image">
+<img src="https://www.pbtech.co.nz/imgprod/default/N/E/NETTPL4560__1.webp?h=2164044437" class="modem_image">
+<img src="https://www.pbtech.co.nz/imgprod/default/N/E/NETTPL4560__3.webp?h=1118979171" class="modem_image">
 
 ### Capabilities
 
