@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "ASUS"
+category: "Asus"
 title: "ROG Rapture GT-BE98"
 date: "2024-08-13 12:50:47 +1200"
 ---
