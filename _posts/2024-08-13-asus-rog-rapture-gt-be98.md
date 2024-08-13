@@ -20,7 +20,7 @@ date: "2024-08-13 12:50:47 +1200"
 
 | Provider | Username | Password | IP Address |
 | :-: | :-: | :-: | :-: |
-| ASUS | Set by user when first accessing | Set by user when first accessing | asusrouter.com |
+| Asus | Set by user when first accessing | Set by user when first accessing | asusrouter.com |
 
 ### Supporting Resources
 
