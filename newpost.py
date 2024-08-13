@@ -55,6 +55,10 @@ def main() -> None:
 | Resource | Link |
 | :-: | :-: |
 | Resource | [Link]() |
+| Resource | [Link]() |
+| Resource | [Link]() |
+| Resource | [Link]() |
+| Resource | [Link]() |
 """
     post_file_name = f"{post_date}-{safe_str(modem_brand)}-{safe_str(modem_model)}.md"
     post_file_path = join(POST_DIR, post_file_name)
