@@ -20,7 +20,7 @@ date: "2024-08-07 05:47:53 +1200"
 
 | Provider | Username | Password | IP Address |
 | :-: | :-: | :-: | :-: |
-| TP Link | None | Set by user when first accessing device | 192.168.1.1<br>tplinkwifi.net |
+| TP Link | None | Set by user when first accessing device | 192.168.0.1<br>tplinkwifi.net |
 
 ### Supporting Resources
 
