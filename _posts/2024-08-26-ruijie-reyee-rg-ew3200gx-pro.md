@@ -26,4 +26,4 @@ date: "2024-08-26 08:00:46 +1200"
 
 | Resource | Link |
 | :-: | :-: |
-| Maual | [View / Download](https://www.ruijienetworks.com/resources/preview/77221/) |
+| Manual | [View / Download](https://www.ruijienetworks.com/resources/preview/77221/) |
